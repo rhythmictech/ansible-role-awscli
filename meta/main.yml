@@ -6,6 +6,9 @@ dependencies:
     when:
       - ansible_os_family == 'RedHat'
       - ansible_distribution != 'Amazon'
+  - src: https://github.com/rhythmictech/ansible-role-yum-wait
+    version: "0.1.0"
+    name: yum-wait
   - src: geerlingguy.pip
     version: "1.3.0"
     name: geerlingguy.pip
