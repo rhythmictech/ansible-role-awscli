@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: awscli
   author: Rhythmic Technologies, @rhythmictech
   description: Ansible Role to install the AWS CLI
   company: Rhythmic Technologies
