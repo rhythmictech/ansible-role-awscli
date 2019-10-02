@@ -1,4 +1,24 @@
 ---
+galaxy_info:
+  author: Rhythmic Technologies, @rhythmictech
+  description: Ansible Role to install the AWS CLI
+  company: Rhythmic Technologies
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: centos
+      versions:
+        - 7
+    - name: redhat
+      versions:
+        - 7
+    - name: Amazon
+      versions:
+        - 2
+  galaxy_tags:
+    - aws
+    - cli
+    - python
 dependencies:
   - src: geerlingguy.repo-epel
     version: "1.2.4"
