@@ -28,7 +28,7 @@ dependencies:
       - ansible_distribution != 'Amazon'
   - src: https://github.com/rhythmictech/ansible-role-yum-wait
     version: "0.1.0"
-    name: yum-wait
+    name: rhythmictech.ansible_role_yum_wait
   - src: geerlingguy.pip
     version: "1.3.0"
     name: geerlingguy.pip
